@@ -102,6 +102,7 @@ a{
 
 div.social:hover{
     background-color: greenyellow;
+   transition: 0.5s;
 }
 
 div.social:hover a{
