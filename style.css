@@ -1,0 +1,109 @@
+@charset "UTF8";
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #141414;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 480px;
+    width: 280px;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+div.img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 30%;
+    margin: 15px 0px 20px;
+}
+
+div.nome > p{
+    font-family: 'Inter';
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+div.endereço > p{
+    font-family: 'Inter';
+    font-weight: 600;
+    color: greenyellow;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+div.profissao > p{
+    font-family: 'Inter';
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+div.social{
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px 0px;
+    padding-bottom: 20;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.social:hover{
+    background-color: greenyellow;
+}
+
+div.social:hover a{
+    color: black;
+}
